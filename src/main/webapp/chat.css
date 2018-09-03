@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+body {
+    background: #fff;
+}
+
+#container {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#output-container {
+    background: #eee;
+    padding: 20px;
+}
+
+#input-container {
+    background: #eee;
+    padding: 20px;
+    overflow: auto;
+}
+
+#chat-input {
+    border: none;
+    padding: 10px;
+    display:block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#chat-send {
+    border: none;
+    padding: 10px;
+    display:block;
+    cursor: pointer;
+    float:right;
+}
