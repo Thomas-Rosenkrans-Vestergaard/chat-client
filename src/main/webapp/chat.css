@@ -10,7 +10,7 @@ body {
 }
 
 #container {
-    width: 1024px;
+    max-width: 1024px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -29,7 +29,7 @@ body {
 #chat-input {
     border: none;
     padding: 10px;
-    display:block;
+    display: block;
     margin-bottom: 20px;
     width: 100%;
 }
@@ -37,7 +37,7 @@ body {
 #chat-send {
     border: none;
     padding: 10px;
-    display:block;
+    display: block;
     cursor: pointer;
-    float:right;
+    float: right;
 }
