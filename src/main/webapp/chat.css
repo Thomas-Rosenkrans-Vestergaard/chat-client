@@ -41,3 +41,19 @@ body {
     cursor: pointer;
     float: right;
 }
+
+.message {
+    overflow: auto;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0px;
+}
+
+.message * {
+    font-size: 12px;
+}
+
+.message .sender {
+    font-weight: bold;
+    width: 100px;
+    display: inline-block;
+}
